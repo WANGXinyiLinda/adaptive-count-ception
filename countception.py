@@ -7,9 +7,6 @@ import matplotlib.pyplot as plt
 from keras import backend as K
 K.tensorflow_backend._get_available_gpus()
 
-from tensorflow.python.client import device_lib
-print(device_lib.list_local_devices())
-
 import pickle
 from keras.layers import Conv2D, BatchNormalization, Input, concatenate, ZeroPadding2D
 # from keras.layers import Dense, Activation, Lambda, Conv2D, MaxPool2D, Flatten, BatchNormalization, Input, concatenate

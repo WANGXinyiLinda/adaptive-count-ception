@@ -7,14 +7,9 @@ import pickle
 import numpy as np
 from skimage.io import imread
 from skimage.measure import block_reduce
-from skimage.transform import rotate
 import scipy.misc
 import scipy.stats
-import sys
-import glob
 import os
-import random
-from math import floor
 from utilities import *
 
 def cal_ef(kernel = "sq", stride = 1, patch_size = 32):
