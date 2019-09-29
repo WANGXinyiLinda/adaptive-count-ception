@@ -20,9 +20,9 @@ For how to train the model, see the jupyter notebooks.
 
 A sample test result from the Hela cells dataset. From left to right: the original cell image, the processed ground truth we used, and our prediction. The predicted cell nember is 84.0 while the ground truth is 89. 75 Hela cell images has been used for training.
 
-![](img\cell-img.png)
-![](img\ground-truth(89).png)
-![](img\adapt-prediction(84.0).png)
+![](img/cell-img.png)
+![](img/ground-truth(89).png)
+![](img/adapt-prediction(84.0).png)
 
 ## Acknowledgment
 
